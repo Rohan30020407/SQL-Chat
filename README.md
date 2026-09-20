@@ -116,29 +116,19 @@ The application uses LangChain and Groq to understand user questions, generate S
 
 
 
-```text
+\- `app.py` — Streamlit application and SQL chat interface
 
-SQL-Chat/
+\- `sqlite.py` — SQLite database setup
 
-├── screenshots/
+\- `Student.db` — SQLite database
 
-│   ├── sql-chat-interface.png
+\- `screenshots/` — Project screenshots
 
-│   ├── sql-chat-query-result.png
-
-│   └── sql-chat-filter-query.png
-
-├── .gitignore
-
-├── app.py
-
-├── sqlite.py
-
-└── Student.db
+\- `.gitignore` — Files excluded from Git
 
 
 
-Setup
+\## Setup
 
 
 
@@ -146,7 +136,7 @@ Install the required packages:
 
 
 
-pip install streamlit langchain langchain-community langchain-groq sqlalchemy
+`pip install streamlit langchain langchain-community langchain-groq sqlalchemy`
 
 
 
@@ -154,7 +144,7 @@ Run the application:
 
 
 
-streamlit run app.py
+`streamlit run app.py`
 
 
 
@@ -162,7 +152,7 @@ After launching the application, enter your Groq API key in the sidebar and star
 
 
 
-Security
+\## Security
 
 
 
@@ -170,11 +160,11 @@ The Groq API key is entered through the Streamlit interface and is not hardcoded
 
 
 
-The .env file is excluded using .gitignore.
+The `.env` file is excluded using `.gitignore`.
 
 
 
-Author
+\## Author
 
 
 
