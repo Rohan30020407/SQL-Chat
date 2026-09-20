@@ -69,62 +69,34 @@ The application uses LangChain and Groq to understand user questions, generate S
 5\. The result is displayed in the Streamlit interface.
 
 
+## Screenshots
 
-\## Screenshots
+### Application Interface
 
+![SQL Chat Interface](./screenshots/sql-chat-interface.png)
 
+### SQL Query Result
 
-\### Application Interface
+![SQL Query Result](./screenshots/sql-chat-query-result.png)
 
+### Filtered SQL Query
 
+![Filtered SQL Query](./screenshots/sql-chat-filter-query.png)
 
-!\[SQL Chat Interface](./screenshots/sql-chat-interface.png)
+## Example Queries
 
+- Show all students
+- Show the students who scored more than 70 marks
+- Find students with marks greater than 80
+- Show the details of a specific student
 
+## Project Structure
 
-\### SQL Query Result
-
-
-
-!\[SQL Query Result](./screenshots/sql-chat-query-result.png)
-
-
-
-\### Filtered SQL Query
-
-
-
-!\[Filtered SQL Query](./screenshots/sql-chat-filter-query.png)
-
-
-
-\## Example Queries
-
-
-
-\- Show all students
-
-\- Show the students who scored more than 70 marks
-
-\- Find students with marks greater than 80
-
-\- Show the details of a specific student
-
-
-
-\## Project Structure
-
-
-
-\- `app.py` — Streamlit application and SQL chat interface
-
-\- `sqlite.py` — SQLite database setup
-
-\- `Student.db` — SQLite database
-
-\- `screenshots/` — Project screenshots
-
-\- `.gitignore` — Files excluded from Git
+- `app.py` — Streamlit application and SQL chat interface
+- `sqlite.py` — SQLite database setup
+- `Student.db` — SQLite database
+- `screenshots/` — Project screenshots
+- `.gitignore` — Files excluded from Git
 
 
 
